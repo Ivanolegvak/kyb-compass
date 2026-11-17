@@ -1,0 +1,3719 @@
+{
+  "edition": "2026-11",
+  "exchange_rates": {
+    "source": "ECB euro reference rates",
+    "date": "2026-11-16",
+    "GBP": 0.8345,
+    "USD": 1.1014
+  },
+  "check_parts": [
+    {
+      "key": "registry",
+      "field": "check_registry",
+      "label": "Register record"
+    },
+    {
+      "key": "officers",
+      "field": "check_officers",
+      "label": "Directors and officers"
+    },
+    {
+      "key": "owners",
+      "field": "check_owners",
+      "label": "Owners and UBOs"
+    },
+    {
+      "key": "sanctions",
+      "field": "check_sanctions",
+      "label": "Sanctions"
+    },
+    {
+      "key": "pep",
+      "field": "check_pep",
+      "label": "PEP"
+    },
+    {
+      "key": "adverseMedia",
+      "field": "check_adverse_media",
+      "label": "Adverse media"
+    },
+    {
+      "key": "documents",
+      "field": "check_documents",
+      "label": "Company documents"
+    },
+    {
+      "key": "monitoring",
+      "field": "check_monitoring",
+      "label": "Ongoing monitoring"
+    }
+  ],
+  "scoring": "A check part counts 1 when the provider says it is included, 0.5 when it is a paid add-on, 0 when it is not offered or not stated. Yes/no criteria count 0 when the provider pages do not say. Score = sum of weight x value, out of 100. Equal scores share a rank.",
+  "segments": [
+    {
+      "id": "small-business",
+      "title": "A few checks a month",
+      "who": "A small business or agency checking suppliers, partners or customers now and then, without a compliance team.",
+      "criteria": [
+        {
+          "label": "You can buy KYB online without a sales call",
+          "weight": 25
+        },
+        {
+          "label": "Pay per check: no monthly fee or minimum volume",
+          "weight": 25
+        },
+        {
+          "label": "KYB price published",
+          "weight": 20
+        },
+        {
+          "label": "Depth of the check (8 parts: register, officers, owners, sanctions, PEP, adverse media, documents, monitoring)",
+          "weight": 20
+        },
+        {
+          "label": "Free start without sales",
+          "weight": 10
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "slug": "certaby",
+          "name": "Certaby",
+          "score": 96.3
+        },
+        {
+          "rank": 1,
+          "slug": "didit",
+          "name": "Didit",
+          "score": 96.3
+        },
+        {
+          "rank": 3,
+          "slug": "sonar",
+          "name": "SONAR",
+          "score": 95
+        },
+        {
+          "rank": 4,
+          "slug": "kycaid",
+          "name": "KYCAID",
+          "score": 92.5
+        },
+        {
+          "rank": 5,
+          "slug": "know-your-customer",
+          "name": "Know Your Customer",
+          "score": 82.5
+        },
+        {
+          "rank": 6,
+          "slug": "companystack",
+          "name": "CompanyStack",
+          "score": 70
+        },
+        {
+          "rank": 6,
+          "slug": "enigma",
+          "name": "Enigma",
+          "score": 70
+        },
+        {
+          "rank": 8,
+          "slug": "endole",
+          "name": "Endole",
+          "score": 67.5
+        },
+        {
+          "rank": 9,
+          "slug": "baselayer",
+          "name": "Baselayer",
+          "score": 65
+        },
+        {
+          "rank": 10,
+          "slug": "thekyb",
+          "name": "TheKYB",
+          "score": 63.8
+        },
+        {
+          "rank": 11,
+          "slug": "shufti-pro",
+          "name": "Shufti Pro",
+          "score": 55
+        },
+        {
+          "rank": 12,
+          "slug": "cobalt-intelligence",
+          "name": "Cobalt Intelligence",
+          "score": 42.5
+        },
+        {
+          "rank": 13,
+          "slug": "ondato",
+          "name": "Ondato",
+          "score": 40
+        },
+        {
+          "rank": 14,
+          "slug": "global-database",
+          "name": "Global Database",
+          "score": 37.5
+        },
+        {
+          "rank": 14,
+          "slug": "kyckr",
+          "name": "Kyckr",
+          "score": 37.5
+        },
+        {
+          "rank": 16,
+          "slug": "ballerine",
+          "name": "Ballerine",
+          "score": 20
+        },
+        {
+          "rank": 16,
+          "slug": "complycube",
+          "name": "ComplyCube",
+          "score": 20
+        },
+        {
+          "rank": 16,
+          "slug": "moodys",
+          "name": "Moody’s (Orbis, kompany)",
+          "score": 20
+        },
+        {
+          "rank": 16,
+          "slug": "smartsearch",
+          "name": "SmartSearch",
+          "score": 20
+        },
+        {
+          "rank": 20,
+          "slug": "alloy",
+          "name": "Alloy",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "credas",
+          "name": "Credas",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "creditsafe",
+          "name": "Creditsafe",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "gbg",
+          "name": "GBG",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "lexisnexis",
+          "name": "LexisNexis Risk Solutions",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "middesk",
+          "name": "Middesk",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "ondorse",
+          "name": "Ondorse",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "socure",
+          "name": "Socure",
+          "score": 17.5
+        },
+        {
+          "rank": 28,
+          "slug": "veriff",
+          "name": "Veriff",
+          "score": 16.3
+        },
+        {
+          "rank": 29,
+          "slug": "bureau",
+          "name": "Bureau",
+          "score": 15
+        },
+        {
+          "rank": 29,
+          "slug": "idenfy",
+          "name": "iDenfy",
+          "score": 15
+        },
+        {
+          "rank": 29,
+          "slug": "sardine",
+          "name": "Sardine",
+          "score": 15
+        },
+        {
+          "rank": 29,
+          "slug": "signicat",
+          "name": "Signicat",
+          "score": 15
+        },
+        {
+          "rank": 29,
+          "slug": "sumsub",
+          "name": "Sumsub",
+          "score": 15
+        },
+        {
+          "rank": 29,
+          "slug": "thirdfort",
+          "name": "Thirdfort",
+          "score": 15
+        },
+        {
+          "rank": 29,
+          "slug": "trulioo",
+          "name": "Trulioo",
+          "score": 15
+        },
+        {
+          "rank": 36,
+          "slug": "au10tix",
+          "name": "AU10TIX",
+          "score": 12.5
+        },
+        {
+          "rank": 36,
+          "slug": "dun-bradstreet",
+          "name": "Dun & Bradstreet",
+          "score": 12.5
+        },
+        {
+          "rank": 38,
+          "slug": "first-aml",
+          "name": "First AML",
+          "score": 10
+        },
+        {
+          "rank": 38,
+          "slug": "persona",
+          "name": "Persona",
+          "score": 10
+        },
+        {
+          "rank": 38,
+          "slug": "signzy",
+          "name": "Signzy",
+          "score": 10
+        },
+        {
+          "rank": 41,
+          "slug": "footprint",
+          "name": "Footprint",
+          "score": 7.5
+        },
+        {
+          "rank": 42,
+          "slug": "amiqus",
+          "name": "Amiqus",
+          "score": 5
+        },
+        {
+          "rank": 42,
+          "slug": "kyc-hub",
+          "name": "KYC Hub",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "uk-eu",
+      "title": "UK and EU counterparties",
+      "who": "A business that deals with companies registered in the UK and the EU.",
+      "criteria": [
+        {
+          "label": "UK registers named as covered",
+          "weight": 20
+        },
+        {
+          "label": "EU registers named as covered",
+          "weight": 25
+        },
+        {
+          "label": "Depth of the check (8 parts: register, officers, owners, sanctions, PEP, adverse media, documents, monitoring)",
+          "weight": 35
+        },
+        {
+          "label": "KYB price published",
+          "weight": 10
+        },
+        {
+          "label": "You can buy KYB online without a sales call",
+          "weight": 10
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "slug": "didit",
+          "name": "Didit",
+          "score": 93.4
+        },
+        {
+          "rank": 2,
+          "slug": "sonar",
+          "name": "SONAR",
+          "score": 91.3
+        },
+        {
+          "rank": 3,
+          "slug": "know-your-customer",
+          "name": "Know Your Customer",
+          "score": 86.9
+        },
+        {
+          "rank": 4,
+          "slug": "global-database",
+          "name": "Global Database",
+          "score": 85.6
+        },
+        {
+          "rank": 5,
+          "slug": "sumsub",
+          "name": "Sumsub",
+          "score": 71.3
+        },
+        {
+          "rank": 5,
+          "slug": "trulioo",
+          "name": "Trulioo",
+          "score": 71.3
+        },
+        {
+          "rank": 7,
+          "slug": "certaby",
+          "name": "Certaby",
+          "score": 68.4
+        },
+        {
+          "rank": 8,
+          "slug": "kyckr",
+          "name": "Kyckr",
+          "score": 66.9
+        },
+        {
+          "rank": 9,
+          "slug": "companystack",
+          "name": "CompanyStack",
+          "score": 66.3
+        },
+        {
+          "rank": 10,
+          "slug": "signzy",
+          "name": "Signzy",
+          "score": 62.5
+        },
+        {
+          "rank": 11,
+          "slug": "endole",
+          "name": "Endole",
+          "score": 61.9
+        },
+        {
+          "rank": 12,
+          "slug": "ballerine",
+          "name": "Ballerine",
+          "score": 55
+        },
+        {
+          "rank": 12,
+          "slug": "smartsearch",
+          "name": "SmartSearch",
+          "score": 55
+        },
+        {
+          "rank": 14,
+          "slug": "creditsafe",
+          "name": "Creditsafe",
+          "score": 50.6
+        },
+        {
+          "rank": 14,
+          "slug": "lexisnexis",
+          "name": "LexisNexis Risk Solutions",
+          "score": 50.6
+        },
+        {
+          "rank": 14,
+          "slug": "ondorse",
+          "name": "Ondorse",
+          "score": 50.6
+        },
+        {
+          "rank": 17,
+          "slug": "enigma",
+          "name": "Enigma",
+          "score": 46.3
+        },
+        {
+          "rank": 17,
+          "slug": "thirdfort",
+          "name": "Thirdfort",
+          "score": 46.3
+        },
+        {
+          "rank": 19,
+          "slug": "ondato",
+          "name": "Ondato",
+          "score": 45
+        },
+        {
+          "rank": 19,
+          "slug": "shufti-pro",
+          "name": "Shufti Pro",
+          "score": 45
+        },
+        {
+          "rank": 21,
+          "slug": "dun-bradstreet",
+          "name": "Dun & Bradstreet",
+          "score": 41.9
+        },
+        {
+          "rank": 21,
+          "slug": "kycaid",
+          "name": "KYCAID",
+          "score": 41.9
+        },
+        {
+          "rank": 23,
+          "slug": "baselayer",
+          "name": "Baselayer",
+          "score": 37.5
+        },
+        {
+          "rank": 24,
+          "slug": "thekyb",
+          "name": "TheKYB",
+          "score": 35.3
+        },
+        {
+          "rank": 25,
+          "slug": "complycube",
+          "name": "ComplyCube",
+          "score": 35
+        },
+        {
+          "rank": 25,
+          "slug": "moodys",
+          "name": "Moody’s (Orbis, kompany)",
+          "score": 35
+        },
+        {
+          "rank": 27,
+          "slug": "alloy",
+          "name": "Alloy",
+          "score": 30.6
+        },
+        {
+          "rank": 27,
+          "slug": "credas",
+          "name": "Credas",
+          "score": 30.6
+        },
+        {
+          "rank": 27,
+          "slug": "gbg",
+          "name": "GBG",
+          "score": 30.6
+        },
+        {
+          "rank": 27,
+          "slug": "middesk",
+          "name": "Middesk",
+          "score": 30.6
+        },
+        {
+          "rank": 27,
+          "slug": "socure",
+          "name": "Socure",
+          "score": 30.6
+        },
+        {
+          "rank": 32,
+          "slug": "amiqus",
+          "name": "Amiqus",
+          "score": 28.8
+        },
+        {
+          "rank": 33,
+          "slug": "veriff",
+          "name": "Veriff",
+          "score": 28.4
+        },
+        {
+          "rank": 34,
+          "slug": "bureau",
+          "name": "Bureau",
+          "score": 26.3
+        },
+        {
+          "rank": 34,
+          "slug": "idenfy",
+          "name": "iDenfy",
+          "score": 26.3
+        },
+        {
+          "rank": 34,
+          "slug": "sardine",
+          "name": "Sardine",
+          "score": 26.3
+        },
+        {
+          "rank": 34,
+          "slug": "signicat",
+          "name": "Signicat",
+          "score": 26.3
+        },
+        {
+          "rank": 38,
+          "slug": "cobalt-intelligence",
+          "name": "Cobalt Intelligence",
+          "score": 23.1
+        },
+        {
+          "rank": 39,
+          "slug": "au10tix",
+          "name": "AU10TIX",
+          "score": 21.9
+        },
+        {
+          "rank": 40,
+          "slug": "first-aml",
+          "name": "First AML",
+          "score": 17.5
+        },
+        {
+          "rank": 40,
+          "slug": "persona",
+          "name": "Persona",
+          "score": 17.5
+        },
+        {
+          "rank": 42,
+          "slug": "footprint",
+          "name": "Footprint",
+          "score": 13.1
+        },
+        {
+          "rank": 43,
+          "slug": "kyc-hub",
+          "name": "KYC Hub",
+          "score": 8.8
+        }
+      ]
+    },
+    {
+      "id": "api-agents",
+      "title": "API for developers and AI agents",
+      "who": "A product team putting company checks into its software or an AI agent.",
+      "criteria": [
+        {
+          "label": "API",
+          "weight": 20
+        },
+        {
+          "label": "MCP server or AI-agent connection to live data",
+          "weight": 30
+        },
+        {
+          "label": "Self-serve: keys without a sales call",
+          "weight": 25
+        },
+        {
+          "label": "KYB price published",
+          "weight": 25
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "slug": "baselayer",
+          "name": "Baselayer",
+          "score": 100
+        },
+        {
+          "rank": 1,
+          "slug": "companystack",
+          "name": "CompanyStack",
+          "score": 100
+        },
+        {
+          "rank": 1,
+          "slug": "didit",
+          "name": "Didit",
+          "score": 100
+        },
+        {
+          "rank": 1,
+          "slug": "enigma",
+          "name": "Enigma",
+          "score": 100
+        },
+        {
+          "rank": 1,
+          "slug": "sonar",
+          "name": "SONAR",
+          "score": 100
+        },
+        {
+          "rank": 6,
+          "slug": "global-database",
+          "name": "Global Database",
+          "score": 75
+        },
+        {
+          "rank": 6,
+          "slug": "shufti-pro",
+          "name": "Shufti Pro",
+          "score": 75
+        },
+        {
+          "rank": 8,
+          "slug": "certaby",
+          "name": "Certaby",
+          "score": 70
+        },
+        {
+          "rank": 8,
+          "slug": "endole",
+          "name": "Endole",
+          "score": 70
+        },
+        {
+          "rank": 8,
+          "slug": "know-your-customer",
+          "name": "Know Your Customer",
+          "score": 70
+        },
+        {
+          "rank": 8,
+          "slug": "kycaid",
+          "name": "KYCAID",
+          "score": 70
+        },
+        {
+          "rank": 8,
+          "slug": "thekyb",
+          "name": "TheKYB",
+          "score": 70
+        },
+        {
+          "rank": 13,
+          "slug": "complycube",
+          "name": "ComplyCube",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "dun-bradstreet",
+          "name": "Dun & Bradstreet",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "footprint",
+          "name": "Footprint",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "idenfy",
+          "name": "iDenfy",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "middesk",
+          "name": "Middesk",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "moodys",
+          "name": "Moody’s (Orbis, kompany)",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "persona",
+          "name": "Persona",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "sumsub",
+          "name": "Sumsub",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "trulioo",
+          "name": "Trulioo",
+          "score": 50
+        },
+        {
+          "rank": 22,
+          "slug": "cobalt-intelligence",
+          "name": "Cobalt Intelligence",
+          "score": 45
+        },
+        {
+          "rank": 22,
+          "slug": "ondato",
+          "name": "Ondato",
+          "score": 45
+        },
+        {
+          "rank": 24,
+          "slug": "alloy",
+          "name": "Alloy",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "amiqus",
+          "name": "Amiqus",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "au10tix",
+          "name": "AU10TIX",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "bureau",
+          "name": "Bureau",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "credas",
+          "name": "Credas",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "creditsafe",
+          "name": "Creditsafe",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "first-aml",
+          "name": "First AML",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "kyc-hub",
+          "name": "KYC Hub",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "kyckr",
+          "name": "Kyckr",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "lexisnexis",
+          "name": "LexisNexis Risk Solutions",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "ondorse",
+          "name": "Ondorse",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "sardine",
+          "name": "Sardine",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "signicat",
+          "name": "Signicat",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "signzy",
+          "name": "Signzy",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "smartsearch",
+          "name": "SmartSearch",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "socure",
+          "name": "Socure",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "veriff",
+          "name": "Veriff",
+          "score": 20
+        },
+        {
+          "rank": 41,
+          "slug": "ballerine",
+          "name": "Ballerine",
+          "score": 0
+        },
+        {
+          "rank": 41,
+          "slug": "gbg",
+          "name": "GBG",
+          "score": 0
+        },
+        {
+          "rank": 41,
+          "slug": "thirdfort",
+          "name": "Thirdfort",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "enterprise",
+      "title": "Onboarding at volume",
+      "who": "A regulated firm or platform onboarding many business customers worldwide.",
+      "criteria": [
+        {
+          "label": "Depth of the check (8 parts: register, officers, owners, sanctions, PEP, adverse media, documents, monitoring)",
+          "weight": 35
+        },
+        {
+          "label": "Coverage claimed in 100+ countries",
+          "weight": 25
+        },
+        {
+          "label": "Ongoing monitoring included",
+          "weight": 15
+        },
+        {
+          "label": "Identity verification of people on the same platform",
+          "weight": 25
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "slug": "complycube",
+          "name": "ComplyCube",
+          "score": 100
+        },
+        {
+          "rank": 1,
+          "slug": "ondato",
+          "name": "Ondato",
+          "score": 100
+        },
+        {
+          "rank": 1,
+          "slug": "shufti-pro",
+          "name": "Shufti Pro",
+          "score": 100
+        },
+        {
+          "rank": 4,
+          "slug": "credas",
+          "name": "Credas",
+          "score": 95.6
+        },
+        {
+          "rank": 4,
+          "slug": "socure",
+          "name": "Socure",
+          "score": 95.6
+        },
+        {
+          "rank": 6,
+          "slug": "bureau",
+          "name": "Bureau",
+          "score": 91.3
+        },
+        {
+          "rank": 6,
+          "slug": "idenfy",
+          "name": "iDenfy",
+          "score": 91.3
+        },
+        {
+          "rank": 6,
+          "slug": "sardine",
+          "name": "Sardine",
+          "score": 91.3
+        },
+        {
+          "rank": 6,
+          "slug": "sumsub",
+          "name": "Sumsub",
+          "score": 91.3
+        },
+        {
+          "rank": 6,
+          "slug": "trulioo",
+          "name": "Trulioo",
+          "score": 91.3
+        },
+        {
+          "rank": 11,
+          "slug": "au10tix",
+          "name": "AU10TIX",
+          "score": 86.9
+        },
+        {
+          "rank": 12,
+          "slug": "veriff",
+          "name": "Veriff",
+          "score": 85.9
+        },
+        {
+          "rank": 13,
+          "slug": "didit",
+          "name": "Didit",
+          "score": 78.4
+        },
+        {
+          "rank": 14,
+          "slug": "moodys",
+          "name": "Moody’s (Orbis, kompany)",
+          "score": 75
+        },
+        {
+          "rank": 14,
+          "slug": "smartsearch",
+          "name": "SmartSearch",
+          "score": 75
+        },
+        {
+          "rank": 16,
+          "slug": "thekyb",
+          "name": "TheKYB",
+          "score": 72.8
+        },
+        {
+          "rank": 17,
+          "slug": "alloy",
+          "name": "Alloy",
+          "score": 70.6
+        },
+        {
+          "rank": 17,
+          "slug": "creditsafe",
+          "name": "Creditsafe",
+          "score": 70.6
+        },
+        {
+          "rank": 17,
+          "slug": "gbg",
+          "name": "GBG",
+          "score": 70.6
+        },
+        {
+          "rank": 17,
+          "slug": "global-database",
+          "name": "Global Database",
+          "score": 70.6
+        },
+        {
+          "rank": 17,
+          "slug": "lexisnexis",
+          "name": "LexisNexis Risk Solutions",
+          "score": 70.6
+        },
+        {
+          "rank": 17,
+          "slug": "middesk",
+          "name": "Middesk",
+          "score": 70.6
+        },
+        {
+          "rank": 23,
+          "slug": "first-aml",
+          "name": "First AML",
+          "score": 67.5
+        },
+        {
+          "rank": 23,
+          "slug": "persona",
+          "name": "Persona",
+          "score": 67.5
+        },
+        {
+          "rank": 23,
+          "slug": "signzy",
+          "name": "Signzy",
+          "score": 67.5
+        },
+        {
+          "rank": 26,
+          "slug": "signicat",
+          "name": "Signicat",
+          "score": 66.3
+        },
+        {
+          "rank": 26,
+          "slug": "thirdfort",
+          "name": "Thirdfort",
+          "score": 66.3
+        },
+        {
+          "rank": 28,
+          "slug": "dun-bradstreet",
+          "name": "Dun & Bradstreet",
+          "score": 61.9
+        },
+        {
+          "rank": 28,
+          "slug": "know-your-customer",
+          "name": "Know Your Customer",
+          "score": 61.9
+        },
+        {
+          "rank": 28,
+          "slug": "kyckr",
+          "name": "Kyckr",
+          "score": 61.9
+        },
+        {
+          "rank": 31,
+          "slug": "certaby",
+          "name": "Certaby",
+          "score": 60.9
+        },
+        {
+          "rank": 32,
+          "slug": "kycaid",
+          "name": "KYCAID",
+          "score": 54.4
+        },
+        {
+          "rank": 33,
+          "slug": "footprint",
+          "name": "Footprint",
+          "score": 53.1
+        },
+        {
+          "rank": 34,
+          "slug": "ballerine",
+          "name": "Ballerine",
+          "score": 50
+        },
+        {
+          "rank": 35,
+          "slug": "ondorse",
+          "name": "Ondorse",
+          "score": 45.6
+        },
+        {
+          "rank": 36,
+          "slug": "companystack",
+          "name": "CompanyStack",
+          "score": 41.3
+        },
+        {
+          "rank": 36,
+          "slug": "enigma",
+          "name": "Enigma",
+          "score": 41.3
+        },
+        {
+          "rank": 38,
+          "slug": "endole",
+          "name": "Endole",
+          "score": 36.9
+        },
+        {
+          "rank": 39,
+          "slug": "amiqus",
+          "name": "Amiqus",
+          "score": 33.8
+        },
+        {
+          "rank": 39,
+          "slug": "kyc-hub",
+          "name": "KYC Hub",
+          "score": 33.8
+        },
+        {
+          "rank": 41,
+          "slug": "sonar",
+          "name": "SONAR",
+          "score": 26.3
+        },
+        {
+          "rank": 42,
+          "slug": "baselayer",
+          "name": "Baselayer",
+          "score": 25
+        },
+        {
+          "rank": 43,
+          "slug": "cobalt-intelligence",
+          "name": "Cobalt Intelligence",
+          "score": 13.1
+        }
+      ]
+    }
+  ],
+  "vendors": [
+    {
+      "slug": "alloy",
+      "name": "Alloy",
+      "url": "https://www.alloy.com",
+      "hq": "United States",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Identity and fraud orchestration through data partners",
+      "check_registry": "yes",
+      "check_officers": "unknown",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "Depends on its data partners; no country count stated",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": true,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (demo)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Alloy: onboarding"
+      ],
+      "source_urls": [
+        "https://www.alloy.com/onboarding"
+      ]
+    },
+    {
+      "slug": "amiqus",
+      "name": "Amiqus",
+      "url": "https://amiqus.co",
+      "hq": "United Kingdom (registered in Scotland, SC511150)",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Client and staff onboarding with ID, AML and KYB checks for UK regulated firms",
+      "check_registry": "yes",
+      "check_officers": "unknown",
+      "check_owners": "yes",
+      "check_sanctions": "unknown",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "unknown",
+      "check_monitoring": "unknown",
+      "coverage": "UK (Companies House) and international registers, for example Singapore (ACRA); no country list",
+      "names_uk_registers": true,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Client onboarding from £15 per client (Standard), from £10 (Scale); KYB price not shown",
+      "minimum": "£500 a month (Standard)",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "Watchlist checks are shown on individuals in the KYB demo; the KYB page does not list sanctions, PEP or adverse media checks on the company.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Amiqus: home",
+        "Amiqus: KYB",
+        "Amiqus: pricing"
+      ],
+      "source_urls": [
+        "https://www.amiqus.co/",
+        "https://amiqus.co/kyb",
+        "https://amiqus.co/pricing"
+      ]
+    },
+    {
+      "slug": "au10tix",
+      "name": "AU10TIX",
+      "url": "https://www.au10tix.com",
+      "hq": "Not stated",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Identity verification platform with KYB in its Enterprise plan",
+      "check_registry": "yes",
+      "check_officers": "unknown",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "unknown",
+      "check_documents": "unknown",
+      "check_monitoring": "yes",
+      "coverage": "200+ global jurisdictions",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "KYB only in the Enterprise plan (price on request); KYC plans have a $500 monthly minimum",
+      "minimum": "Not stated for Enterprise",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "PEP and sanctions screening is listed for the enterprise tier of business verification.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "AU10TIX: home",
+        "AU10TIX: business verification",
+        "AU10TIX: pricing"
+      ],
+      "source_urls": [
+        "https://www.au10tix.com/",
+        "https://www.au10tix.com/solutions/business-verification/",
+        "https://www.au10tix.com/pricing/"
+      ]
+    },
+    {
+      "slug": "ballerine",
+      "name": "Ballerine",
+      "url": "https://ballerine.com",
+      "hq": "Not stated (Ballerine Inc.; offices in Palo Alto, Singapore and Tel Aviv)",
+      "kind": "kyb",
+      "kind_label": "KYB provider",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Merchant onboarding and KYB for payment companies, run by AI agents",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "Aggregates several KYB and registry providers; names Companies House and state registries; no country count",
+      "names_uk_registers": true,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": false,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": false,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (demo)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "Also checks merchant websites against the declared business. A free offer covers 5 web presence reports, not KYB.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Ballerine: home",
+        "Ballerine: KYB and ownership"
+      ],
+      "source_urls": [
+        "https://ballerine.com/",
+        "https://ballerine.com/kyb-ownership"
+      ]
+    },
+    {
+      "slug": "baselayer",
+      "name": "Baselayer",
+      "url": "https://baselayer.com",
+      "hq": "United States",
+      "kind": "kyb",
+      "kind_label": "KYB provider",
+      "ranked": true,
+      "publisher": false,
+      "focus": "US business identity and risk",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "addon",
+      "check_sanctions": "yes",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "unknown",
+      "check_monitoring": "addon",
+      "coverage": "US businesses; international search in 76 jurisdictions",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": true,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": true,
+      "self_serve": true,
+      "free_start": "Sandbox (no free credits)",
+      "kyc_too": false,
+      "published_price": true,
+      "no_minimum": false,
+      "price": "Credits; Start-up plan from $150 a month",
+      "minimum": "From $150 a month",
+      "monthly_fee_amount": 150,
+      "monthly_fee_currency": "USD",
+      "cost_5_checks_amount": 150,
+      "cost_5_checks_currency": "USD",
+      "cost_5_checks_from": true,
+      "cost_5_checks_eur": 136.19,
+      "note": "Owners outside the US only in international enhanced profiles; monitoring on Enterprise.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Baselayer: pricing",
+        "Baselayer: international products (docs)"
+      ],
+      "source_urls": [
+        "https://baselayer.com/pricing/",
+        "https://docs.baselayer.com/docs/baselayer-international-products.md"
+      ]
+    },
+    {
+      "slug": "bureau",
+      "name": "Bureau",
+      "url": "https://www.bureau.id",
+      "hq": "Not stated (Bureau, Inc.; operates in India, Singapore and the US)",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Risk decisioning platform with KYC, KYB and fraud signals through modular APIs",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "unknown",
+      "check_adverse_media": "yes",
+      "check_documents": "unknown",
+      "check_monitoring": "yes",
+      "coverage": "195+ countries and jurisdictions; no registers named",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (demo)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Bureau: home",
+        "Bureau: KYB",
+        "Bureau: privacy policy"
+      ],
+      "source_urls": [
+        "https://www.bureau.id/",
+        "https://www.bureau.id/solutions/kyb",
+        "https://www.bureau.id/privacy-policy"
+      ]
+    },
+    {
+      "slug": "certaby",
+      "name": "Certaby",
+      "url": "https://certaby.com",
+      "hq": "United Kingdom",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "AML checks for UK property and finance firms, including UK company KYB",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "unknown",
+      "check_monitoring": "addon",
+      "coverage": "UK companies (Companies House)",
+      "names_uk_registers": true,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": true,
+      "free_start": "Free demo; API test key with 50 free checks",
+      "kyc_too": true,
+      "published_price": true,
+      "no_minimum": true,
+      "price": "£6.95 per UK company (KYB package on the pricing page)",
+      "minimum": "None (top up from £5); memberships from £19.99 a month optional",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": 34.75,
+      "cost_5_checks_currency": "GBP",
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": 41.64,
+      "note": "Its API page lists the KYB package at £3.99; the pricing page says £6.95. Companies House monitoring is sold separately, from £2.49 per company a month.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Certaby: pricing",
+        "Certaby: API"
+      ],
+      "source_urls": [
+        "https://certaby.com/pricing",
+        "https://certaby.com/api"
+      ]
+    },
+    {
+      "slug": "cobalt-intelligence",
+      "name": "Cobalt Intelligence",
+      "url": "https://cobaltintelligence.com",
+      "hq": "Not stated",
+      "kind": "kyb",
+      "kind_label": "KYB provider",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Live US Secretary of State business verification through an API, mainly for lenders",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "unknown",
+      "check_sanctions": "unknown",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "unknown",
+      "coverage": "All 50 US states plus Washington D.C. (live Secretary of State data); officer names in 28 states, organisation documents in 18",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": true,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": true,
+      "free_start": "20 free lookups, no card",
+      "kyc_too": false,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published on the pages opened; most lookups cost 1 credit, pay-as-you-go or volume tiers",
+      "minimum": "No long-term contract; pay-as-you-go offered",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "Its pricing page shows no prices, and its pages do not say whether there is a monthly minimum. The home page says 20 free lookups in one place and 80 free lookups after a demo in another. Each lookup returns a timestamped screenshot of the state record.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Cobalt Intelligence: home"
+      ],
+      "source_urls": [
+        "https://cobaltintelligence.com/"
+      ]
+    },
+    {
+      "slug": "companystack",
+      "name": "CompanyStack",
+      "url": "https://companystack.co.uk",
+      "hq": "United Kingdom",
+      "kind": "credit-kyb",
+      "kind_label": "Credit data with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "UK company data, filed accounts as figures, monitoring and KYB checks",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "UK companies only",
+      "names_uk_registers": true,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": true,
+      "self_serve": true,
+      "free_start": "Free lookups; free plan watching 10 companies",
+      "kyc_too": false,
+      "published_price": true,
+      "no_minimum": false,
+      "price": "Pro £19 a month includes 250 KYB checks",
+      "minimum": "Monthly or yearly plan",
+      "monthly_fee_amount": 19,
+      "monthly_fee_currency": "GBP",
+      "cost_5_checks_amount": 19,
+      "cost_5_checks_currency": "GBP",
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": 22.77,
+      "note": "Pages could not be opened on 2026-11-17 (browser check); facts as published on 2026-11-14.",
+      "checked_on": "2026-11-14",
+      "source_labels": [
+        "CompanyStack: pricing"
+      ],
+      "source_urls": [
+        "https://companystack.co.uk/pricing"
+      ]
+    },
+    {
+      "slug": "complyadvantage",
+      "name": "ComplyAdvantage",
+      "url": "https://complyadvantage.com",
+      "hq": "United Kingdom",
+      "kind": "screening",
+      "kind_label": "AML screening",
+      "ranked": false,
+      "publisher": false,
+      "focus": "AML screening and monitoring of the companies and people you supply",
+      "check_registry": "no",
+      "check_officers": "unknown",
+      "check_owners": "no",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "no",
+      "check_monitoring": "yes",
+      "coverage": "No registry coverage (screening only)",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": true,
+      "free_start": "Free for early-stage start-ups (ComplyLaunch)",
+      "kyc_too": false,
+      "published_price": true,
+      "no_minimum": false,
+      "price": "Screening from $99 a month",
+      "minimum": "$99 a month, cancel anytime",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "ComplyAdvantage: pricing"
+      ],
+      "source_urls": [
+        "https://complyadvantage.com/pricing/"
+      ]
+    },
+    {
+      "slug": "complycube",
+      "name": "ComplyCube",
+      "url": "https://www.complycube.com",
+      "hq": "United Kingdom",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Identity verification and AML screening, with KYB on the Growth plan",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "220+ countries and territories",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": true,
+      "self_serve": false,
+      "free_start": "14-day trial, 50 checks (person checks)",
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published: company lookup (KYB) is on the Growth plan",
+      "minimum": "Starter $99 a month, Core $299 a month",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "ComplyCube: pricing",
+        "ComplyCube: KYB"
+      ],
+      "source_urls": [
+        "https://www.complycube.com/en/pricing/",
+        "https://www.complycube.com/en/know-your-business/"
+      ]
+    },
+    {
+      "slug": "credas",
+      "name": "Credas",
+      "url": "https://credas.com",
+      "hq": "United Kingdom",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Identity, AML and KYB checks for UK property, legal and finance firms",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "unknown",
+      "check_monitoring": "yes",
+      "coverage": "Over 400 million companies in 200+ countries and territories",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (request pricing); one price for UK and international KYB reports, with volume discounts",
+      "minimum": "Monthly package or subscription; KYB uses a credit commitment (amount not published)",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "Its API page does not say whether KYB reports are available through the API; a free sandbox is offered for the API.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Credas: home",
+        "Credas: Know Your Business",
+        "Credas: pricing and packages",
+        "Credas: API integration"
+      ],
+      "source_urls": [
+        "https://credas.com/",
+        "https://credas.com/products/know-your-business/",
+        "https://credas.com/pricing-and-packages/",
+        "https://credas.com/id-verification-api-integration/"
+      ]
+    },
+    {
+      "slug": "creditsafe",
+      "name": "Creditsafe",
+      "url": "https://www.creditsafe.com",
+      "hq": "United Kingdom",
+      "kind": "credit-kyb",
+      "kind_label": "Credit data with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Company credit reports with a compliance and KYB module",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "unknown",
+      "check_monitoring": "yes",
+      "coverage": "Company data in 160+ countries",
+      "names_uk_registers": true,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": "Free trial (form)",
+      "kyc_too": false,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (\"Get Quote\")",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Creditsafe: KYB checks",
+        "Creditsafe: packages"
+      ],
+      "source_urls": [
+        "https://www.creditsafe.com/gb/en/credit-risk/compliance/kyb-checks.html",
+        "https://www.creditsafe.com/gb/en/more/packages/packages.html"
+      ]
+    },
+    {
+      "slug": "didit",
+      "name": "Didit",
+      "url": "https://didit.me",
+      "hq": "Spain",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Identity verification with KYB and AML",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "addon",
+      "check_monitoring": "no",
+      "coverage": "220+ countries; UK and EU registers named",
+      "names_uk_registers": true,
+      "names_eu_registers": true,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": true,
+      "self_serve": true,
+      "free_start": "$10 free credit a month",
+      "kyc_too": true,
+      "published_price": true,
+      "no_minimum": true,
+      "price": "Company check (KYB) from $2.00; $2, $5 or $9 per company by depth",
+      "minimum": "No minimums, no contracts; plans from $99 a month optional",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": 10,
+      "cost_5_checks_currency": "USD",
+      "cost_5_checks_from": true,
+      "cost_5_checks_eur": 9.08,
+      "note": "The page calls its price list a staging retail catalog, pending production rollout. Registry monitoring is \"coming soon\".",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Didit: pricing",
+        "Didit: business verification"
+      ],
+      "source_urls": [
+        "https://didit.me/pricing",
+        "https://didit.me/products/business-verification/"
+      ]
+    },
+    {
+      "slug": "dow-jones",
+      "name": "Dow Jones Risk & Compliance",
+      "url": "https://www.dowjones.com/business-intelligence/risk",
+      "hq": "Not stated (Dow Jones & Company, Inc.)",
+      "kind": "screening",
+      "kind_label": "AML screening",
+      "ranked": false,
+      "publisher": false,
+      "focus": "Sanctions, PEP and adverse media screening and third-party due diligence",
+      "check_registry": "yes",
+      "check_officers": "unknown",
+      "check_owners": "addon",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "unknown",
+      "check_monitoring": "yes",
+      "coverage": "Entity verification on Dun & Bradstreet data; lists from 400+ regulatory and enforcement bodies",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": false,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (contact sales)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "Beneficial ownership is an add-on module in RiskCenter Third Party. A free trial is offered through a sales contact.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Dow Jones: RiskCenter Third Party",
+        "Dow Jones: Advanced Screening and Monitoring"
+      ],
+      "source_urls": [
+        "https://www.dowjones.com/business-intelligence/risk/products/third-party/",
+        "https://www.dowjones.com/business-intelligence/risk/products/advanced-screening-monitoring/"
+      ]
+    },
+    {
+      "slug": "dun-bradstreet",
+      "name": "Dun & Bradstreet",
+      "url": "https://www.dnb.co.uk",
+      "hq": "United States (UK entity in London)",
+      "kind": "credit-kyb",
+      "kind_label": "Credit data with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Business credit data with compliance and third-party risk products",
+      "check_registry": "unknown",
+      "check_officers": "unknown",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "unknown",
+      "check_monitoring": "yes",
+      "coverage": "640M+ entities in 250+ markets",
+      "names_uk_registers": true,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": true,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": false,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published for compliance (demo)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "MCP server access on request.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Dun & Bradstreet: compliance intelligence",
+        "Dun & Bradstreet: MCP server"
+      ],
+      "source_urls": [
+        "https://www.dnb.co.uk/products/dnb-compliance-intelligence.html",
+        "https://www.dnb.co.uk/solutions/artificial-intelligence/connectors/dnb-mcp.html"
+      ]
+    },
+    {
+      "slug": "endole",
+      "name": "Endole",
+      "url": "https://www.endole.co.uk",
+      "hq": "United Kingdom",
+      "kind": "credit-kyb",
+      "kind_label": "Credit data with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "UK company insights and credit reports, with KYB checks in the subscription",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "unknown",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "Every UK company",
+      "names_uk_registers": true,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": true,
+      "free_start": "Free basic platform",
+      "kyc_too": false,
+      "published_price": true,
+      "no_minimum": false,
+      "price": "Unlimited KYB checks in £39 per user a month (£25 billed yearly), ex VAT",
+      "minimum": "One user subscription",
+      "monthly_fee_amount": 39,
+      "monthly_fee_currency": "GBP",
+      "cost_5_checks_amount": 39,
+      "cost_5_checks_currency": "GBP",
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": 46.73,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Endole: pricing",
+        "Endole: KYC checks"
+      ],
+      "source_urls": [
+        "https://www.endole.co.uk/pricing/",
+        "https://www.endole.co.uk/solutions/kyc-checks/"
+      ]
+    },
+    {
+      "slug": "enigma",
+      "name": "Enigma",
+      "url": "https://www.enigma.com",
+      "hq": "United States",
+      "kind": "kyb",
+      "kind_label": "KYB provider",
+      "ranked": true,
+      "publisher": false,
+      "focus": "US business data and KYB through an API and console",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "unknown",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "unknown",
+      "check_monitoring": "yes",
+      "coverage": "US businesses (Secretary of State records)",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": true,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": true,
+      "self_serve": true,
+      "free_start": "Free plan; KYB checks use paid credits",
+      "kyc_too": false,
+      "published_price": true,
+      "no_minimum": false,
+      "price": "$1.50 (KYB Identify) or $2.50 (KYB Verify) per matched business",
+      "minimum": "Not stated whether the free plan can buy KYB credits; Pro $20 a month, Max $200 a month",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": 12.5,
+      "cost_5_checks_currency": "USD",
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": 11.35,
+      "note": "MCP access is listed on the Max plan.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Enigma: pricing",
+        "Enigma: onboarding and KYB"
+      ],
+      "source_urls": [
+        "https://www.enigma.com/pricing",
+        "https://www.enigma.com/solutions/onboarding-and-kyb"
+      ]
+    },
+    {
+      "slug": "first-aml",
+      "name": "First AML",
+      "url": "https://www.firstaml.com",
+      "hq": "Not stated (First AML UK Limited)",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "AML onboarding of individuals and complex entities for law, accounting and property firms",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "unknown",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "unknown",
+      "coverage": "300+ corporate registries and data sources; \"trusted registries across 200+ jurisdictions\"",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Price on application; varies by jurisdiction",
+      "minimum": "Launch plan: at least 400 individuals or 100 complex entities a year",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "API access is listed for plans above a $20k fixed spend. Screening and ongoing due diligence are separate features; the KYB page does not say they are part of the entity check.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "First AML: home",
+        "First AML: KYB business verification",
+        "First AML: plans and pricing"
+      ],
+      "source_urls": [
+        "https://www.firstaml.com/",
+        "https://firstaml.com/uk/inside-the-platform/features/kyb-business-verification/",
+        "https://firstaml.com/uk/plans-and-pricing/"
+      ]
+    },
+    {
+      "slug": "footprint",
+      "name": "Footprint",
+      "url": "https://www.onefootprint.com",
+      "hq": "United States",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "KYC and KYB onboarding with AI compliance operations for banks",
+      "check_registry": "unknown",
+      "check_officers": "unknown",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "unknown",
+      "check_monitoring": "yes",
+      "coverage": "No country count stated",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": true,
+      "self_serve": false,
+      "free_start": "Sandbox",
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (contact)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Footprint: home page",
+        "Footprint: MCP (docs)"
+      ],
+      "source_urls": [
+        "https://www.onefootprint.com/",
+        "https://docs.onefootprint.com/articles/platform/mcp"
+      ]
+    },
+    {
+      "slug": "gbg",
+      "name": "GBG",
+      "url": "https://www.gbg.com",
+      "hq": "United Kingdom",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Identity and fraud checks with a KYB product for onboarding business customers",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "unknown",
+      "check_monitoring": "yes",
+      "coverage": "600m+ company records and ownership registries; no country count for KYB",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": false,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (demo)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "The KYB page does not mention an API; it lists CRM links and a Salesforce app.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "GBG: home",
+        "GBG: know your business",
+        "GBG: legal"
+      ],
+      "source_urls": [
+        "https://www.gbg.com/en/",
+        "https://www.gbg.com/en/assess-risk/know-your-business-kyb/",
+        "https://www.gbg.com/en/legal/"
+      ]
+    },
+    {
+      "slug": "global-database",
+      "name": "Global Database",
+      "url": "https://www.globaldatabase.com",
+      "hq": "United Kingdom",
+      "kind": "kyb",
+      "kind_label": "KYB provider",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Company data and KYB verification reports",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "400+ registries in 200+ countries; Companies House and EU registers named",
+      "names_uk_registers": true,
+      "names_eu_registers": true,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": true,
+      "self_serve": false,
+      "free_start": "Free trial",
+      "kyc_too": false,
+      "published_price": true,
+      "no_minimum": false,
+      "price": "From £20 per verification",
+      "minimum": "Not stated for reports; agreements for API and monitoring",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": 100,
+      "cost_5_checks_currency": "GBP",
+      "cost_5_checks_from": true,
+      "cost_5_checks_eur": 119.83,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Global Database: KYB verification"
+      ],
+      "source_urls": [
+        "https://www.globaldatabase.com/kyb-verification"
+      ]
+    },
+    {
+      "slug": "idenfy",
+      "name": "iDenfy",
+      "url": "https://idenfy.com",
+      "hq": "Lithuania",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Identity verification, with KYB and AML",
+      "check_registry": "yes",
+      "check_officers": "unknown",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "180+ company registries in 300+ countries and jurisdictions",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": true,
+      "self_serve": false,
+      "free_start": "Free trial (person checks)",
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published: KYB is in the Enterprise plan",
+      "minimum": "Person checks €135 a month minimum; KYB on an annual contract",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "iDenfy: pricing plans",
+        "iDenfy: KYB"
+      ],
+      "source_urls": [
+        "https://idenfy.com/pricing-plans/",
+        "https://idenfy.com/know-your-business-solution/"
+      ]
+    },
+    {
+      "slug": "know-your-customer",
+      "name": "Know Your Customer",
+      "url": "https://www.knowyourcustomer.com",
+      "hq": "Not stated (Know Your Customer Limited)",
+      "kind": "kyb",
+      "kind_label": "KYB provider",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Company records, ownership and KYB workflows from live registry connections, with one-off records sold online",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "unknown",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "500+ local registries in 155 jurisdictions, including Companies House (UK), German and Dutch registers and US states",
+      "names_uk_registers": true,
+      "names_eu_registers": true,
+      "names_us_registers": true,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": true,
+      "free_start": null,
+      "kyc_too": false,
+      "published_price": true,
+      "no_minimum": true,
+      "price": "One-off company record from $19 (UK, Germany, Netherlands $19; France $89; highest band $119); US priced per state",
+      "minimum": "None (one-off card payment, no subscription)",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": 95,
+      "cost_5_checks_currency": "USD",
+      "cost_5_checks_from": true,
+      "cost_5_checks_eur": 86.25,
+      "note": "A one-off record has the company profile, officers, ownership chain with percentages and registry filings, but no watchlist screening. Screening and monitoring are in the sales-led KYC platform.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Know Your Customer: home",
+        "Know Your Customer: registry coverage",
+        "Know Your Customer: products",
+        "Know Your Customer: company records",
+        "Know Your Customer: records pricing",
+        "Know Your Customer: records coverage"
+      ],
+      "source_urls": [
+        "https://www.knowyourcustomer.com/",
+        "https://www.knowyourcustomer.com/products/registry-coverage/",
+        "https://www.knowyourcustomer.com/products/",
+        "https://records.knowyourcustomer.com/",
+        "https://records.knowyourcustomer.com/pricing",
+        "https://records.knowyourcustomer.com/coverage"
+      ]
+    },
+    {
+      "slug": "kyc-hub",
+      "name": "KYC Hub",
+      "url": "https://www.kychub.com",
+      "hq": "India",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "KYC, KYB and AML platform for regulated firms, with KYB in its Enterprise tier",
+      "check_registry": "yes",
+      "check_officers": "unknown",
+      "check_owners": "yes",
+      "check_sanctions": "unknown",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "unknown",
+      "check_monitoring": "unknown",
+      "coverage": "\"Coverage across 190+ countries\" (identity checks); live registry data for businesses \"worldwide\"",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Custom; KYB only in the Enterprise tier",
+      "minimum": "A monthly commitment (amount not stated)",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "No self-serve trial; a guided demo and a paid pilot instead. European HQ in London.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "KYC Hub: home",
+        "KYC Hub: pricing",
+        "KYC Hub: about"
+      ],
+      "source_urls": [
+        "https://www.kychub.com/",
+        "https://www.kychub.com/pricing",
+        "https://www.kychub.com/about-us"
+      ]
+    },
+    {
+      "slug": "kycaid",
+      "name": "KYCAID",
+      "url": "https://kycaid.com",
+      "hq": "United Kingdom",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Person and business verification, usage-based",
+      "check_registry": "unknown",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "addon",
+      "check_pep": "addon",
+      "check_adverse_media": "addon",
+      "check_documents": "yes",
+      "check_monitoring": "addon",
+      "coverage": "No country count stated",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": true,
+      "free_start": "€50 welcome credit, no card",
+      "kyc_too": true,
+      "published_price": true,
+      "no_minimum": true,
+      "price": "€10.00 per company check, ex VAT",
+      "minimum": "None; monitoring €100 a month if wanted",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": 50,
+      "cost_5_checks_currency": "EUR",
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": 50,
+      "note": "Sanctions and PEP database screening and adverse media are add-ons at €0.10 each.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "KYCAID: pricing",
+        "KYCAID: KYB"
+      ],
+      "source_urls": [
+        "https://kycaid.com/pricing/",
+        "https://kycaid.com/kyb/"
+      ]
+    },
+    {
+      "slug": "kyckr",
+      "name": "Kyckr",
+      "url": "https://www.kyckr.com",
+      "hq": "Ireland",
+      "kind": "kyb",
+      "kind_label": "KYB provider",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Live company registry data and documents by API",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "unknown",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "300+ registers in 100+ countries, including the UK and all 27 EU states",
+      "names_uk_registers": true,
+      "names_eu_registers": true,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": false,
+      "published_price": false,
+      "no_minimum": true,
+      "price": "Not published (pay per call)",
+      "minimum": "No usage minimums",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Kyckr: home page",
+        "Kyckr: country coverage"
+      ],
+      "source_urls": [
+        "https://www.kyckr.com/",
+        "https://developer.kyckr.com/documentation/useful-information/country-coverage"
+      ]
+    },
+    {
+      "slug": "lexisnexis",
+      "name": "LexisNexis Risk Solutions",
+      "url": "https://risk.lexisnexis.com",
+      "hq": "United States",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "AML screening and business and person verification for enterprises",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "unknown",
+      "check_monitoring": "yes",
+      "coverage": "32M US and 27.5M UK businesses",
+      "names_uk_registers": true,
+      "names_eu_registers": false,
+      "names_us_registers": true,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (sales)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "LexisNexis Risk Solutions: KYB"
+      ],
+      "source_urls": [
+        "https://risk.lexisnexis.com/global/en/business-solutions/kyb"
+      ]
+    },
+    {
+      "slug": "lseg-world-check",
+      "name": "LSEG World-Check",
+      "url": "https://www.lseg.com/en/risk-intelligence/screening-solutions/world-check-kyc-screening",
+      "hq": "United Kingdom (London Stock Exchange Group)",
+      "kind": "screening",
+      "kind_label": "AML screening",
+      "ranked": false,
+      "publisher": false,
+      "focus": "Risk intelligence database for sanctions, PEP and adverse media screening of people and organisations",
+      "check_registry": "no",
+      "check_officers": "no",
+      "check_owners": "no",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "no",
+      "check_monitoring": "yes",
+      "coverage": "No registry check (screening only)",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": false,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (contact sales)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "LSEG: World-Check"
+      ],
+      "source_urls": [
+        "https://www.lseg.com/en/risk-intelligence/screening-solutions/world-check-kyc-screening"
+      ]
+    },
+    {
+      "slug": "middesk",
+      "name": "Middesk",
+      "url": "https://www.middesk.com",
+      "hq": "United States",
+      "kind": "kyb",
+      "kind_label": "KYB provider",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Business verification for US onboarding and underwriting",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "unknown",
+      "check_monitoring": "yes",
+      "coverage": "400+ US government sources; international registrations named generically",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": true,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": true,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (demo)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Middesk: platform",
+        "Middesk: business onboarding pricing"
+      ],
+      "source_urls": [
+        "https://www.middesk.com/platform",
+        "https://www.middesk.com/pricing/business-onboarding"
+      ]
+    },
+    {
+      "slug": "moodys",
+      "name": "Moody’s (Orbis, kompany)",
+      "url": "https://www.moodys.com/web/en/us/kyc/products/entity-verification-api.html",
+      "hq": "United States",
+      "kind": "kyb",
+      "kind_label": "KYB provider",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Company data and registry-based entity verification for KYC teams",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "200+ countries and jurisdictions; 650M+ companies in Orbis",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": true,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": false,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (demo)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Moody’s: Entity Verification API",
+        "Moody’s: Orbis"
+      ],
+      "source_urls": [
+        "https://www.moodys.com/web/en/us/kyc/products/entity-verification-api.html",
+        "https://www.moodys.com/web/en/us/capabilities/company-reference-data/orbis.html"
+      ]
+    },
+    {
+      "slug": "north-data",
+      "name": "North Data",
+      "url": "https://www.northdata.com",
+      "hq": "Germany",
+      "kind": "data",
+      "kind_label": "Company data",
+      "ranked": false,
+      "publisher": false,
+      "focus": "European company search and research",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "addon",
+      "check_sanctions": "unknown",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "27 European countries, including the UK",
+      "names_uk_registers": true,
+      "names_eu_registers": true,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": true,
+      "free_start": "Free basic search",
+      "kyc_too": false,
+      "published_price": true,
+      "no_minimum": false,
+      "price": "Web from €49 a month; Data API from €500 a month, ex VAT",
+      "minimum": "€49 a month (web)",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "North Data: premium"
+      ],
+      "source_urls": [
+        "https://www.northdata.com/_premium"
+      ]
+    },
+    {
+      "slug": "ondato",
+      "name": "Ondato",
+      "url": "https://ondato.com",
+      "hq": "Lithuania (UAB Ondato, Vilnius)",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "KYC, AML and KYB platform",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "195 countries; shareholders in 105 jurisdictions",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": true,
+      "no_minimum": false,
+      "price": "KYB from €600 a month; no price per check",
+      "minimum": "From €600 a month",
+      "monthly_fee_amount": 600,
+      "monthly_fee_currency": "EUR",
+      "cost_5_checks_amount": 600,
+      "cost_5_checks_currency": "EUR",
+      "cost_5_checks_from": true,
+      "cost_5_checks_eur": 600,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Ondato: KYB pricing",
+        "Ondato: business verification"
+      ],
+      "source_urls": [
+        "https://ondato.com/know-your-business-pricing/",
+        "https://ondato.com/business-verification-services/"
+      ]
+    },
+    {
+      "slug": "ondorse",
+      "name": "Ondorse",
+      "url": "https://www.ondorse.co",
+      "hq": "France",
+      "kind": "kyb",
+      "kind_label": "KYB provider",
+      "ranked": true,
+      "publisher": false,
+      "focus": "KYB automation for fintechs, combining registers and data vendors with AI document checks",
+      "check_registry": "yes",
+      "check_officers": "unknown",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "35+ third-party vendors and registers, including Companies House, Creditsafe, Dun & Bradstreet and LexisNexis; no country list",
+      "names_uk_registers": true,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": false,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (book a call)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Ondorse: home",
+        "Ondorse: privacy policy"
+      ],
+      "source_urls": [
+        "https://www.ondorse.co/",
+        "https://www.ondorse.co/privacy-policy"
+      ]
+    },
+    {
+      "slug": "opencorporates",
+      "name": "OpenCorporates",
+      "url": "https://opencorporates.com",
+      "hq": "United Kingdom",
+      "kind": "data",
+      "kind_label": "Company data",
+      "ranked": false,
+      "publisher": false,
+      "focus": "Open legal-entity data from official registers, by API",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "unknown",
+      "check_sanctions": "no",
+      "check_pep": "no",
+      "check_adverse_media": "no",
+      "check_documents": "unknown",
+      "check_monitoring": "unknown",
+      "coverage": "140+ jurisdictions",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": true,
+      "free_start": "Free for NGOs, journalists and researchers on request",
+      "kyc_too": false,
+      "published_price": true,
+      "no_minimum": false,
+      "price": "API from £225 a month (500 calls)",
+      "minimum": "£225 a month or £2,250 a year",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "OpenCorporates: pricing"
+      ],
+      "source_urls": [
+        "https://opencorporates.com/pricing/"
+      ]
+    },
+    {
+      "slug": "opensanctions",
+      "name": "OpenSanctions",
+      "url": "https://www.opensanctions.org",
+      "hq": "Germany",
+      "kind": "screening",
+      "kind_label": "AML screening",
+      "ranked": false,
+      "publisher": false,
+      "focus": "Open sanctions, PEP and watchlist data with a pay-per-query screening API",
+      "check_registry": "no",
+      "check_officers": "no",
+      "check_owners": "no",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "unknown",
+      "check_documents": "no",
+      "check_monitoring": "unknown",
+      "coverage": "No registry check (screening only); 480+ sources",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": true,
+      "self_serve": true,
+      "free_start": "2,000 free credits with a business email",
+      "kyc_too": false,
+      "published_price": true,
+      "no_minimum": false,
+      "price": "€0.10 per query in a 500-credit bundle (€50), down to €0.03 at volume, ex VAT",
+      "minimum": "€50 prepaid bundle; credits valid one year",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "Free for non-commercial use under CC BY-NC 4.0. MCP server through its yente-client toolkit.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "OpenSanctions: home",
+        "OpenSanctions: API"
+      ],
+      "source_urls": [
+        "https://www.opensanctions.org/",
+        "https://www.opensanctions.org/api/"
+      ]
+    },
+    {
+      "slug": "persona",
+      "name": "Persona",
+      "url": "https://withpersona.com",
+      "hq": "United States",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Identity platform with KYB on the Growth plan",
+      "check_registry": "yes",
+      "check_officers": "unknown",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "unknown",
+      "coverage": "150+ countries",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": true,
+      "self_serve": false,
+      "free_start": "Startup Program (application)",
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published: KYB is on the Growth plan (contact sales)",
+      "minimum": "Essential plan from $250 a month, 12-month term",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Persona: pricing",
+        "Persona: KYB"
+      ],
+      "source_urls": [
+        "https://withpersona.com/pricing",
+        "https://withpersona.com/solutions/know-your-business"
+      ]
+    },
+    {
+      "slug": "sardine",
+      "name": "Sardine",
+      "url": "https://www.sardine.ai",
+      "hq": "Not stated (SardineAI Corp.)",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Fraud and compliance platform with KYB, ownership mapping and AI agents for review",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "unknown",
+      "check_pep": "unknown",
+      "check_adverse_media": "yes",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "Commercial registries in \"hundreds of jurisdictions\"; 580M+ business profiles",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (contact sales)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "Sanctions screening is a separate product; the KYB page does not say it is included. API documentation requires a login.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Sardine: KYB",
+        "Sardine: privacy policy",
+        "Sardine: docs"
+      ],
+      "source_urls": [
+        "https://www.sardine.ai/kyb",
+        "https://www.sardine.ai/privacy-policy",
+        "https://docs.sardine.ai/"
+      ]
+    },
+    {
+      "slug": "sayari",
+      "name": "Sayari",
+      "url": "https://sayari.com",
+      "hq": "Not stated (Sayari Labs, Inc.)",
+      "kind": "data",
+      "kind_label": "Company data",
+      "ranked": false,
+      "publisher": false,
+      "focus": "Global corporate ownership and trade data for sanctions, supply chain and KYC investigations",
+      "check_registry": "yes",
+      "check_officers": "unknown",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "unknown",
+      "check_monitoring": "unknown",
+      "coverage": "12B+ records from 250+ jurisdictions",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": false,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (demo)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Sayari: home"
+      ],
+      "source_urls": [
+        "https://sayari.com/"
+      ]
+    },
+    {
+      "slug": "shufti-pro",
+      "name": "Shufti Pro",
+      "url": "https://shuftipro.com",
+      "hq": "Not stated",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Identity verification, AML and KYB",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "240+ live registries",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": true,
+      "self_serve": true,
+      "free_start": "Free plan, 10 verifications a month (person checks)",
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "No separate KYB price: an add-on to Essentials (from $1.5 per verification)",
+      "minimum": "Not stated",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Shufti Pro: pricing",
+        "Shufti Pro: KYB"
+      ],
+      "source_urls": [
+        "https://shuftipro.com/pricing/",
+        "https://shuftipro.com/know-your-business/"
+      ]
+    },
+    {
+      "slug": "signicat",
+      "name": "Signicat",
+      "url": "https://www.signicat.com",
+      "hq": "Norway",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Digital identity and KYC / KYB orchestration",
+      "check_registry": "yes",
+      "check_officers": "unknown",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "unknown",
+      "check_monitoring": "yes",
+      "coverage": "40+ countries (platform-wide)",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": "Free developer sandbox",
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (setup, subscription and transaction fees)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Signicat: pricing",
+        "Signicat: KYC and KYB platform"
+      ],
+      "source_urls": [
+        "https://www.signicat.com/pricing",
+        "https://www.signicat.com/kyc-kyb-platform"
+      ]
+    },
+    {
+      "slug": "signzy",
+      "name": "Signzy",
+      "url": "https://www.signzy.com",
+      "hq": "India",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Identity and business verification APIs for banks and fintechs, with US, India and Middle East stacks",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "unknown",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "unknown",
+      "coverage": "150+ countries and all 50 US states; FAQ names the US, UK and EU",
+      "names_uk_registers": true,
+      "names_eu_registers": true,
+      "names_us_registers": true,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (demo)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "AML and PEP screening are separate APIs, not described as part of KYB.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Signzy: business verification",
+        "Signzy: about"
+      ],
+      "source_urls": [
+        "https://www.signzy.com/business-verification",
+        "https://www.signzy.com/about-us"
+      ]
+    },
+    {
+      "slug": "smartsearch",
+      "name": "SmartSearch",
+      "url": "https://www.smartsearch.com",
+      "hq": "United Kingdom",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "AML checks on UK and international individuals and businesses for regulated firms",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "UK companies (Companies House); international business reports in over 97 countries",
+      "names_uk_registers": true,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (quote based on usage; Basic, Standard and Enhanced tiers with an annual credit allowance)",
+      "minimum": "Annual credit commitment; no pay-as-you-go",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "UBO data comes from Experian; sanctions and PEP lists from Dow Jones.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "SmartSearch: home",
+        "SmartSearch: KYB checks",
+        "SmartSearch: international business check",
+        "SmartSearch: pricing"
+      ],
+      "source_urls": [
+        "https://www.smartsearch.com/",
+        "https://www.smartsearch.com/solutions/know-your-business-checks",
+        "https://www.smartsearch.com/solutions/international-aml-business-check",
+        "https://www.smartsearch.com/product/pricing-page"
+      ]
+    },
+    {
+      "slug": "socure",
+      "name": "Socure",
+      "url": "https://www.socure.com",
+      "hq": "Not stated (Socure Inc.)",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Identity and fraud platform with business onboarding built on partner registry data",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "US official records; \"Coverage in 200+ countries\" for international company registration data",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": true,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published for business onboarding",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "Its business onboarding page offers business entity verification, UBO identification and sanctions screening, and names Middesk, Baselayer, Kyckr, Markaaz and FIS as data sources.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Socure: business onboarding"
+      ],
+      "source_urls": [
+        "https://www.socure.com/use-cases/business-onboarding"
+      ]
+    },
+    {
+      "slug": "sonar",
+      "name": "SONAR",
+      "url": "https://getsonar.report",
+      "hq": "United Kingdom",
+      "kind": "kyb",
+      "kind_label": "KYB provider",
+      "ranked": true,
+      "publisher": true,
+      "focus": "One KYB report on a supplier, partner or customer, for teams without a compliance department",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "no",
+      "check_monitoring": "no",
+      "coverage": "Official registers in the UK, EU countries such as France, Estonia, Poland and Czechia, Norway and other countries listed on the methodology page; owners where the register publishes them",
+      "names_uk_registers": true,
+      "names_eu_registers": true,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": true,
+      "mcp": true,
+      "self_serve": true,
+      "free_start": "1 full report, no card",
+      "kyc_too": false,
+      "published_price": true,
+      "no_minimum": true,
+      "price": "€9 per report; €6 per report through the API; €0.01 per company found for a register check",
+      "minimum": "None (prepaid balance); plans from €79 a month are optional",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": 45,
+      "cost_5_checks_currency": "EUR",
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": 45,
+      "note": "No identity verification of people, no ongoing monitoring.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "SONAR: pricing",
+        "SONAR: methodology",
+        "SONAR: KYB API and MCP server"
+      ],
+      "source_urls": [
+        "https://getsonar.report/pricing",
+        "https://getsonar.report/methodology",
+        "https://getsonar.report/developers"
+      ]
+    },
+    {
+      "slug": "sumsub",
+      "name": "Sumsub",
+      "url": "https://sumsub.com",
+      "hq": "United Kingdom",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Full-stack verification: people, businesses, transactions",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "200+ countries and territories; Companies House and the Handelsregister named",
+      "names_uk_registers": true,
+      "names_eu_registers": true,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": true,
+      "self_serve": false,
+      "free_start": "14-day trial, 50 checks (person checks)",
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published: business verification is in the Custom plan",
+      "minimum": "Person-check plans $149 or $299 a month minimum",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Sumsub: pricing",
+        "Sumsub: business verification",
+        "Sumsub: business registry coverage",
+        "Sumsub: MCP server"
+      ],
+      "source_urls": [
+        "https://sumsub.com/pricing/",
+        "https://sumsub.com/business-verification-services/",
+        "https://sumsub.com/business-registry-coverage/",
+        "https://docs.sumsub.com/docs/mcp-server"
+      ]
+    },
+    {
+      "slug": "thekyb",
+      "name": "TheKYB",
+      "url": "https://thekyb.com",
+      "hq": "United Kingdom",
+      "kind": "kyb",
+      "kind_label": "KYB provider",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Business verification by API",
+      "check_registry": "yes",
+      "check_officers": "unknown",
+      "check_owners": "yes",
+      "check_sanctions": "addon",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "addon",
+      "check_monitoring": "addon",
+      "coverage": "250+ countries and states",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": true,
+      "free_start": "Two free credits",
+      "kyc_too": true,
+      "published_price": true,
+      "no_minimum": false,
+      "price": "From $3 per basic KYB check",
+      "minimum": "100 verifications to begin",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": 15,
+      "cost_5_checks_currency": "USD",
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": 13.62,
+      "note": "AML screening $3, documents at registry cost + 25%, monitoring +$0.50 per verification.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "TheKYB: pricing",
+        "TheKYB: our data"
+      ],
+      "source_urls": [
+        "https://thekyb.com/pricing",
+        "https://thekyb.com/our-data/"
+      ]
+    },
+    {
+      "slug": "thirdfort",
+      "name": "Thirdfort",
+      "url": "https://www.thirdfort.com",
+      "hq": "United Kingdom",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Client ID, AML and company checks for UK law, property and accountancy firms",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "unknown",
+      "check_documents": "unknown",
+      "check_monitoring": "yes",
+      "coverage": "Over 50 million corporate entities globally (Dun & Bradstreet data); Companies House data updated every 24 hours",
+      "names_uk_registers": true,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": false,
+      "api": false,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published; one price for company summary and UBO discovery wherever the company is based",
+      "minimum": "Monthly platform fee (amount not published), then pay-as-you-go checks or credits valid 24 months",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": "Sanctions screening uses LSEG World-Check; UBO chart covers owners of 5% or more.",
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Thirdfort: home",
+        "Thirdfort: know your business",
+        "Thirdfort: legal"
+      ],
+      "source_urls": [
+        "https://www.thirdfort.com/",
+        "https://www.thirdfort.com/product/know-your-business/",
+        "https://www.thirdfort.com/legal/"
+      ]
+    },
+    {
+      "slug": "trulioo",
+      "name": "Trulioo",
+      "url": "https://www.trulioo.com",
+      "hq": "Canada",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Person and business verification worldwide",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "unknown",
+      "check_adverse_media": "unknown",
+      "check_documents": "yes",
+      "check_monitoring": "yes",
+      "coverage": "195+ countries; UK and EU registers named",
+      "names_uk_registers": true,
+      "names_eu_registers": true,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": true,
+      "self_serve": false,
+      "free_start": null,
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published (sales)",
+      "minimum": "Not published",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Trulioo: KYB business verification",
+        "Trulioo: business verification overview (docs)"
+      ],
+      "source_urls": [
+        "https://www.trulioo.com/products/kyb-business-verification",
+        "https://developer.trulioo.com/docs/overview-business-verification"
+      ]
+    },
+    {
+      "slug": "veriff",
+      "name": "Veriff",
+      "url": "https://www.veriff.com",
+      "hq": "Estonia",
+      "kind": "kyc-kyb",
+      "kind_label": "KYC platform with KYB",
+      "ranked": true,
+      "publisher": false,
+      "focus": "Identity verification, with business verification on Enterprise",
+      "check_registry": "yes",
+      "check_officers": "yes",
+      "check_owners": "yes",
+      "check_sanctions": "yes",
+      "check_pep": "yes",
+      "check_adverse_media": "yes",
+      "check_documents": "unknown",
+      "check_monitoring": "addon",
+      "coverage": "300+ jurisdictions",
+      "names_uk_registers": false,
+      "names_eu_registers": false,
+      "names_us_registers": false,
+      "claims_100_plus_countries": true,
+      "api": true,
+      "mcp": false,
+      "self_serve": false,
+      "free_start": "15-day trial, 50 checks (person checks)",
+      "kyc_too": true,
+      "published_price": false,
+      "no_minimum": false,
+      "price": "Not published: business verification is in the Enterprise plan",
+      "minimum": "Person checks from $49 a month minimum",
+      "monthly_fee_amount": null,
+      "monthly_fee_currency": null,
+      "cost_5_checks_amount": null,
+      "cost_5_checks_currency": null,
+      "cost_5_checks_from": false,
+      "cost_5_checks_eur": null,
+      "note": null,
+      "checked_on": "2026-11-17",
+      "source_labels": [
+        "Veriff: pricing",
+        "Veriff: business verification"
+      ],
+      "source_urls": [
+        "https://www.veriff.com/pricing",
+        "https://www.veriff.com/product/business-verification"
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "name": "Entrust Identity Verification (formerly Onfido)",
+      "reason": "Verifies people; no business verification on its pages.",
+      "url": "https://www.entrust.com/products/identity-verification"
+    },
+    {
+      "name": "Experian Business Express",
+      "reason": "Sells company credit reports (£24.99 ex VAT each); no KYB or AML check in the product.",
+      "url": "https://www.experian.co.uk/business-express/small-business-home"
+    },
+    {
+      "name": "Fourthline",
+      "reason": "Home page lists person verification, AML screening and fraud modules; no KYB product page found on its site.",
+      "url": "https://www.fourthline.com/"
+    },
+    {
+      "name": "FullCircl",
+      "reason": "Site now redirects to nCino.",
+      "url": "https://www.fullcircl.com/"
+    },
+    {
+      "name": "IDnow",
+      "reason": "Home page lists only person identity, AML screening and data checks; no business verification.",
+      "url": "https://www.idnow.io/"
+    },
+    {
+      "name": "Jumio",
+      "reason": "KYX page has no business verification; person ID and AML screening only.",
+      "url": "https://www.jumio.com/platform/"
+    },
+    {
+      "name": "Parcha",
+      "reason": "Its KYB product line was retired; the company now sells AI compliance agents as Grep AI.",
+      "url": "https://www.parcha.ai/"
+    },
+    {
+      "name": "Plaid Identity Verification",
+      "reason": "Verifies people only; no KYB on the product page.",
+      "url": "https://plaid.com/products/identity-verification/"
+    },
+    {
+      "name": "SEON",
+      "reason": "Home page lists person identity, document, address and AML screening; no KYB.",
+      "url": "https://seon.io/"
+    },
+    {
+      "name": "Vespia",
+      "reason": "Being acquired by Veriff (already listed); its pricing page now redirects to Veriff self-serve plans.",
+      "url": "https://vespia.io/"
+    },
+    {
+      "name": "ZignSec",
+      "reason": "Site now redirects to G2 Risk Solutions identity verification.",
+      "url": "https://www.zignsec.com/"
+    }
+  ]
+}

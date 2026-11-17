@@ -1,0 +1,1191 @@
+{
+  "dataset": "KYB Compass",
+  "edition": "2026-11",
+  "updated": "2026-11-17",
+  "license": "CC-BY-4.0",
+  "check_parts": [
+    {
+      "key": "registry",
+      "field": "check_registry",
+      "label": "Register record"
+    },
+    {
+      "key": "officers",
+      "field": "check_officers",
+      "label": "Directors and officers"
+    },
+    {
+      "key": "owners",
+      "field": "check_owners",
+      "label": "Owners and UBOs"
+    },
+    {
+      "key": "sanctions",
+      "field": "check_sanctions",
+      "label": "Sanctions"
+    },
+    {
+      "key": "pep",
+      "field": "check_pep",
+      "label": "PEP"
+    },
+    {
+      "key": "adverseMedia",
+      "field": "check_adverse_media",
+      "label": "Adverse media"
+    },
+    {
+      "key": "documents",
+      "field": "check_documents",
+      "label": "Company documents"
+    },
+    {
+      "key": "monitoring",
+      "field": "check_monitoring",
+      "label": "Ongoing monitoring"
+    }
+  ],
+  "scoring": "A check part counts 1 when the provider says it is included, 0.5 when it is a paid add-on, 0 when it is not offered or not stated. Yes/no criteria count 0 when the provider pages do not say. Score = sum of weight x value, out of 100. Equal scores share a rank.",
+  "segments": [
+    {
+      "id": "small-business",
+      "title": "A few checks a month",
+      "who": "A small business or agency checking suppliers, partners or customers now and then, without a compliance team.",
+      "criteria": [
+        {
+          "label": "You can buy KYB online without a sales call",
+          "weight": 25
+        },
+        {
+          "label": "Pay per check: no monthly fee or minimum volume",
+          "weight": 25
+        },
+        {
+          "label": "KYB price published",
+          "weight": 20
+        },
+        {
+          "label": "Depth of the check (8 parts: register, officers, owners, sanctions, PEP, adverse media, documents, monitoring)",
+          "weight": 20
+        },
+        {
+          "label": "Free start without sales",
+          "weight": 10
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "slug": "certaby",
+          "name": "Certaby",
+          "score": 96.3
+        },
+        {
+          "rank": 1,
+          "slug": "didit",
+          "name": "Didit",
+          "score": 96.3
+        },
+        {
+          "rank": 3,
+          "slug": "sonar",
+          "name": "SONAR",
+          "score": 95
+        },
+        {
+          "rank": 4,
+          "slug": "kycaid",
+          "name": "KYCAID",
+          "score": 92.5
+        },
+        {
+          "rank": 5,
+          "slug": "know-your-customer",
+          "name": "Know Your Customer",
+          "score": 82.5
+        },
+        {
+          "rank": 6,
+          "slug": "companystack",
+          "name": "CompanyStack",
+          "score": 70
+        },
+        {
+          "rank": 6,
+          "slug": "enigma",
+          "name": "Enigma",
+          "score": 70
+        },
+        {
+          "rank": 8,
+          "slug": "endole",
+          "name": "Endole",
+          "score": 67.5
+        },
+        {
+          "rank": 9,
+          "slug": "baselayer",
+          "name": "Baselayer",
+          "score": 65
+        },
+        {
+          "rank": 10,
+          "slug": "thekyb",
+          "name": "TheKYB",
+          "score": 63.8
+        },
+        {
+          "rank": 11,
+          "slug": "shufti-pro",
+          "name": "Shufti Pro",
+          "score": 55
+        },
+        {
+          "rank": 12,
+          "slug": "cobalt-intelligence",
+          "name": "Cobalt Intelligence",
+          "score": 42.5
+        },
+        {
+          "rank": 13,
+          "slug": "ondato",
+          "name": "Ondato",
+          "score": 40
+        },
+        {
+          "rank": 14,
+          "slug": "global-database",
+          "name": "Global Database",
+          "score": 37.5
+        },
+        {
+          "rank": 14,
+          "slug": "kyckr",
+          "name": "Kyckr",
+          "score": 37.5
+        },
+        {
+          "rank": 16,
+          "slug": "ballerine",
+          "name": "Ballerine",
+          "score": 20
+        },
+        {
+          "rank": 16,
+          "slug": "complycube",
+          "name": "ComplyCube",
+          "score": 20
+        },
+        {
+          "rank": 16,
+          "slug": "moodys",
+          "name": "Moody’s (Orbis, kompany)",
+          "score": 20
+        },
+        {
+          "rank": 16,
+          "slug": "smartsearch",
+          "name": "SmartSearch",
+          "score": 20
+        },
+        {
+          "rank": 20,
+          "slug": "alloy",
+          "name": "Alloy",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "credas",
+          "name": "Credas",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "creditsafe",
+          "name": "Creditsafe",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "gbg",
+          "name": "GBG",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "lexisnexis",
+          "name": "LexisNexis Risk Solutions",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "middesk",
+          "name": "Middesk",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "ondorse",
+          "name": "Ondorse",
+          "score": 17.5
+        },
+        {
+          "rank": 20,
+          "slug": "socure",
+          "name": "Socure",
+          "score": 17.5
+        },
+        {
+          "rank": 28,
+          "slug": "veriff",
+          "name": "Veriff",
+          "score": 16.3
+        },
+        {
+          "rank": 29,
+          "slug": "bureau",
+          "name": "Bureau",
+          "score": 15
+        },
+        {
+          "rank": 29,
+          "slug": "idenfy",
+          "name": "iDenfy",
+          "score": 15
+        },
+        {
+          "rank": 29,
+          "slug": "sardine",
+          "name": "Sardine",
+          "score": 15
+        },
+        {
+          "rank": 29,
+          "slug": "signicat",
+          "name": "Signicat",
+          "score": 15
+        },
+        {
+          "rank": 29,
+          "slug": "sumsub",
+          "name": "Sumsub",
+          "score": 15
+        },
+        {
+          "rank": 29,
+          "slug": "thirdfort",
+          "name": "Thirdfort",
+          "score": 15
+        },
+        {
+          "rank": 29,
+          "slug": "trulioo",
+          "name": "Trulioo",
+          "score": 15
+        },
+        {
+          "rank": 36,
+          "slug": "au10tix",
+          "name": "AU10TIX",
+          "score": 12.5
+        },
+        {
+          "rank": 36,
+          "slug": "dun-bradstreet",
+          "name": "Dun & Bradstreet",
+          "score": 12.5
+        },
+        {
+          "rank": 38,
+          "slug": "first-aml",
+          "name": "First AML",
+          "score": 10
+        },
+        {
+          "rank": 38,
+          "slug": "persona",
+          "name": "Persona",
+          "score": 10
+        },
+        {
+          "rank": 38,
+          "slug": "signzy",
+          "name": "Signzy",
+          "score": 10
+        },
+        {
+          "rank": 41,
+          "slug": "footprint",
+          "name": "Footprint",
+          "score": 7.5
+        },
+        {
+          "rank": 42,
+          "slug": "amiqus",
+          "name": "Amiqus",
+          "score": 5
+        },
+        {
+          "rank": 42,
+          "slug": "kyc-hub",
+          "name": "KYC Hub",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "uk-eu",
+      "title": "UK and EU counterparties",
+      "who": "A business that deals with companies registered in the UK and the EU.",
+      "criteria": [
+        {
+          "label": "UK registers named as covered",
+          "weight": 20
+        },
+        {
+          "label": "EU registers named as covered",
+          "weight": 25
+        },
+        {
+          "label": "Depth of the check (8 parts: register, officers, owners, sanctions, PEP, adverse media, documents, monitoring)",
+          "weight": 35
+        },
+        {
+          "label": "KYB price published",
+          "weight": 10
+        },
+        {
+          "label": "You can buy KYB online without a sales call",
+          "weight": 10
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "slug": "didit",
+          "name": "Didit",
+          "score": 93.4
+        },
+        {
+          "rank": 2,
+          "slug": "sonar",
+          "name": "SONAR",
+          "score": 91.3
+        },
+        {
+          "rank": 3,
+          "slug": "know-your-customer",
+          "name": "Know Your Customer",
+          "score": 86.9
+        },
+        {
+          "rank": 4,
+          "slug": "global-database",
+          "name": "Global Database",
+          "score": 85.6
+        },
+        {
+          "rank": 5,
+          "slug": "sumsub",
+          "name": "Sumsub",
+          "score": 71.3
+        },
+        {
+          "rank": 5,
+          "slug": "trulioo",
+          "name": "Trulioo",
+          "score": 71.3
+        },
+        {
+          "rank": 7,
+          "slug": "certaby",
+          "name": "Certaby",
+          "score": 68.4
+        },
+        {
+          "rank": 8,
+          "slug": "kyckr",
+          "name": "Kyckr",
+          "score": 66.9
+        },
+        {
+          "rank": 9,
+          "slug": "companystack",
+          "name": "CompanyStack",
+          "score": 66.3
+        },
+        {
+          "rank": 10,
+          "slug": "signzy",
+          "name": "Signzy",
+          "score": 62.5
+        },
+        {
+          "rank": 11,
+          "slug": "endole",
+          "name": "Endole",
+          "score": 61.9
+        },
+        {
+          "rank": 12,
+          "slug": "ballerine",
+          "name": "Ballerine",
+          "score": 55
+        },
+        {
+          "rank": 12,
+          "slug": "smartsearch",
+          "name": "SmartSearch",
+          "score": 55
+        },
+        {
+          "rank": 14,
+          "slug": "creditsafe",
+          "name": "Creditsafe",
+          "score": 50.6
+        },
+        {
+          "rank": 14,
+          "slug": "lexisnexis",
+          "name": "LexisNexis Risk Solutions",
+          "score": 50.6
+        },
+        {
+          "rank": 14,
+          "slug": "ondorse",
+          "name": "Ondorse",
+          "score": 50.6
+        },
+        {
+          "rank": 17,
+          "slug": "enigma",
+          "name": "Enigma",
+          "score": 46.3
+        },
+        {
+          "rank": 17,
+          "slug": "thirdfort",
+          "name": "Thirdfort",
+          "score": 46.3
+        },
+        {
+          "rank": 19,
+          "slug": "ondato",
+          "name": "Ondato",
+          "score": 45
+        },
+        {
+          "rank": 19,
+          "slug": "shufti-pro",
+          "name": "Shufti Pro",
+          "score": 45
+        },
+        {
+          "rank": 21,
+          "slug": "dun-bradstreet",
+          "name": "Dun & Bradstreet",
+          "score": 41.9
+        },
+        {
+          "rank": 21,
+          "slug": "kycaid",
+          "name": "KYCAID",
+          "score": 41.9
+        },
+        {
+          "rank": 23,
+          "slug": "baselayer",
+          "name": "Baselayer",
+          "score": 37.5
+        },
+        {
+          "rank": 24,
+          "slug": "thekyb",
+          "name": "TheKYB",
+          "score": 35.3
+        },
+        {
+          "rank": 25,
+          "slug": "complycube",
+          "name": "ComplyCube",
+          "score": 35
+        },
+        {
+          "rank": 25,
+          "slug": "moodys",
+          "name": "Moody’s (Orbis, kompany)",
+          "score": 35
+        },
+        {
+          "rank": 27,
+          "slug": "alloy",
+          "name": "Alloy",
+          "score": 30.6
+        },
+        {
+          "rank": 27,
+          "slug": "credas",
+          "name": "Credas",
+          "score": 30.6
+        },
+        {
+          "rank": 27,
+          "slug": "gbg",
+          "name": "GBG",
+          "score": 30.6
+        },
+        {
+          "rank": 27,
+          "slug": "middesk",
+          "name": "Middesk",
+          "score": 30.6
+        },
+        {
+          "rank": 27,
+          "slug": "socure",
+          "name": "Socure",
+          "score": 30.6
+        },
+        {
+          "rank": 32,
+          "slug": "amiqus",
+          "name": "Amiqus",
+          "score": 28.8
+        },
+        {
+          "rank": 33,
+          "slug": "veriff",
+          "name": "Veriff",
+          "score": 28.4
+        },
+        {
+          "rank": 34,
+          "slug": "bureau",
+          "name": "Bureau",
+          "score": 26.3
+        },
+        {
+          "rank": 34,
+          "slug": "idenfy",
+          "name": "iDenfy",
+          "score": 26.3
+        },
+        {
+          "rank": 34,
+          "slug": "sardine",
+          "name": "Sardine",
+          "score": 26.3
+        },
+        {
+          "rank": 34,
+          "slug": "signicat",
+          "name": "Signicat",
+          "score": 26.3
+        },
+        {
+          "rank": 38,
+          "slug": "cobalt-intelligence",
+          "name": "Cobalt Intelligence",
+          "score": 23.1
+        },
+        {
+          "rank": 39,
+          "slug": "au10tix",
+          "name": "AU10TIX",
+          "score": 21.9
+        },
+        {
+          "rank": 40,
+          "slug": "first-aml",
+          "name": "First AML",
+          "score": 17.5
+        },
+        {
+          "rank": 40,
+          "slug": "persona",
+          "name": "Persona",
+          "score": 17.5
+        },
+        {
+          "rank": 42,
+          "slug": "footprint",
+          "name": "Footprint",
+          "score": 13.1
+        },
+        {
+          "rank": 43,
+          "slug": "kyc-hub",
+          "name": "KYC Hub",
+          "score": 8.8
+        }
+      ]
+    },
+    {
+      "id": "api-agents",
+      "title": "API for developers and AI agents",
+      "who": "A product team putting company checks into its software or an AI agent.",
+      "criteria": [
+        {
+          "label": "API",
+          "weight": 20
+        },
+        {
+          "label": "MCP server or AI-agent connection to live data",
+          "weight": 30
+        },
+        {
+          "label": "Self-serve: keys without a sales call",
+          "weight": 25
+        },
+        {
+          "label": "KYB price published",
+          "weight": 25
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "slug": "baselayer",
+          "name": "Baselayer",
+          "score": 100
+        },
+        {
+          "rank": 1,
+          "slug": "companystack",
+          "name": "CompanyStack",
+          "score": 100
+        },
+        {
+          "rank": 1,
+          "slug": "didit",
+          "name": "Didit",
+          "score": 100
+        },
+        {
+          "rank": 1,
+          "slug": "enigma",
+          "name": "Enigma",
+          "score": 100
+        },
+        {
+          "rank": 1,
+          "slug": "sonar",
+          "name": "SONAR",
+          "score": 100
+        },
+        {
+          "rank": 6,
+          "slug": "global-database",
+          "name": "Global Database",
+          "score": 75
+        },
+        {
+          "rank": 6,
+          "slug": "shufti-pro",
+          "name": "Shufti Pro",
+          "score": 75
+        },
+        {
+          "rank": 8,
+          "slug": "certaby",
+          "name": "Certaby",
+          "score": 70
+        },
+        {
+          "rank": 8,
+          "slug": "endole",
+          "name": "Endole",
+          "score": 70
+        },
+        {
+          "rank": 8,
+          "slug": "know-your-customer",
+          "name": "Know Your Customer",
+          "score": 70
+        },
+        {
+          "rank": 8,
+          "slug": "kycaid",
+          "name": "KYCAID",
+          "score": 70
+        },
+        {
+          "rank": 8,
+          "slug": "thekyb",
+          "name": "TheKYB",
+          "score": 70
+        },
+        {
+          "rank": 13,
+          "slug": "complycube",
+          "name": "ComplyCube",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "dun-bradstreet",
+          "name": "Dun & Bradstreet",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "footprint",
+          "name": "Footprint",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "idenfy",
+          "name": "iDenfy",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "middesk",
+          "name": "Middesk",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "moodys",
+          "name": "Moody’s (Orbis, kompany)",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "persona",
+          "name": "Persona",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "sumsub",
+          "name": "Sumsub",
+          "score": 50
+        },
+        {
+          "rank": 13,
+          "slug": "trulioo",
+          "name": "Trulioo",
+          "score": 50
+        },
+        {
+          "rank": 22,
+          "slug": "cobalt-intelligence",
+          "name": "Cobalt Intelligence",
+          "score": 45
+        },
+        {
+          "rank": 22,
+          "slug": "ondato",
+          "name": "Ondato",
+          "score": 45
+        },
+        {
+          "rank": 24,
+          "slug": "alloy",
+          "name": "Alloy",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "amiqus",
+          "name": "Amiqus",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "au10tix",
+          "name": "AU10TIX",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "bureau",
+          "name": "Bureau",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "credas",
+          "name": "Credas",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "creditsafe",
+          "name": "Creditsafe",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "first-aml",
+          "name": "First AML",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "kyc-hub",
+          "name": "KYC Hub",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "kyckr",
+          "name": "Kyckr",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "lexisnexis",
+          "name": "LexisNexis Risk Solutions",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "ondorse",
+          "name": "Ondorse",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "sardine",
+          "name": "Sardine",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "signicat",
+          "name": "Signicat",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "signzy",
+          "name": "Signzy",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "smartsearch",
+          "name": "SmartSearch",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "socure",
+          "name": "Socure",
+          "score": 20
+        },
+        {
+          "rank": 24,
+          "slug": "veriff",
+          "name": "Veriff",
+          "score": 20
+        },
+        {
+          "rank": 41,
+          "slug": "ballerine",
+          "name": "Ballerine",
+          "score": 0
+        },
+        {
+          "rank": 41,
+          "slug": "gbg",
+          "name": "GBG",
+          "score": 0
+        },
+        {
+          "rank": 41,
+          "slug": "thirdfort",
+          "name": "Thirdfort",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "enterprise",
+      "title": "Onboarding at volume",
+      "who": "A regulated firm or platform onboarding many business customers worldwide.",
+      "criteria": [
+        {
+          "label": "Depth of the check (8 parts: register, officers, owners, sanctions, PEP, adverse media, documents, monitoring)",
+          "weight": 35
+        },
+        {
+          "label": "Coverage claimed in 100+ countries",
+          "weight": 25
+        },
+        {
+          "label": "Ongoing monitoring included",
+          "weight": 15
+        },
+        {
+          "label": "Identity verification of people on the same platform",
+          "weight": 25
+        }
+      ],
+      "ranking": [
+        {
+          "rank": 1,
+          "slug": "complycube",
+          "name": "ComplyCube",
+          "score": 100
+        },
+        {
+          "rank": 1,
+          "slug": "ondato",
+          "name": "Ondato",
+          "score": 100
+        },
+        {
+          "rank": 1,
+          "slug": "shufti-pro",
+          "name": "Shufti Pro",
+          "score": 100
+        },
+        {
+          "rank": 4,
+          "slug": "credas",
+          "name": "Credas",
+          "score": 95.6
+        },
+        {
+          "rank": 4,
+          "slug": "socure",
+          "name": "Socure",
+          "score": 95.6
+        },
+        {
+          "rank": 6,
+          "slug": "bureau",
+          "name": "Bureau",
+          "score": 91.3
+        },
+        {
+          "rank": 6,
+          "slug": "idenfy",
+          "name": "iDenfy",
+          "score": 91.3
+        },
+        {
+          "rank": 6,
+          "slug": "sardine",
+          "name": "Sardine",
+          "score": 91.3
+        },
+        {
+          "rank": 6,
+          "slug": "sumsub",
+          "name": "Sumsub",
+          "score": 91.3
+        },
+        {
+          "rank": 6,
+          "slug": "trulioo",
+          "name": "Trulioo",
+          "score": 91.3
+        },
+        {
+          "rank": 11,
+          "slug": "au10tix",
+          "name": "AU10TIX",
+          "score": 86.9
+        },
+        {
+          "rank": 12,
+          "slug": "veriff",
+          "name": "Veriff",
+          "score": 85.9
+        },
+        {
+          "rank": 13,
+          "slug": "didit",
+          "name": "Didit",
+          "score": 78.4
+        },
+        {
+          "rank": 14,
+          "slug": "moodys",
+          "name": "Moody’s (Orbis, kompany)",
+          "score": 75
+        },
+        {
+          "rank": 14,
+          "slug": "smartsearch",
+          "name": "SmartSearch",
+          "score": 75
+        },
+        {
+          "rank": 16,
+          "slug": "thekyb",
+          "name": "TheKYB",
+          "score": 72.8
+        },
+        {
+          "rank": 17,
+          "slug": "alloy",
+          "name": "Alloy",
+          "score": 70.6
+        },
+        {
+          "rank": 17,
+          "slug": "creditsafe",
+          "name": "Creditsafe",
+          "score": 70.6
+        },
+        {
+          "rank": 17,
+          "slug": "gbg",
+          "name": "GBG",
+          "score": 70.6
+        },
+        {
+          "rank": 17,
+          "slug": "global-database",
+          "name": "Global Database",
+          "score": 70.6
+        },
+        {
+          "rank": 17,
+          "slug": "lexisnexis",
+          "name": "LexisNexis Risk Solutions",
+          "score": 70.6
+        },
+        {
+          "rank": 17,
+          "slug": "middesk",
+          "name": "Middesk",
+          "score": 70.6
+        },
+        {
+          "rank": 23,
+          "slug": "first-aml",
+          "name": "First AML",
+          "score": 67.5
+        },
+        {
+          "rank": 23,
+          "slug": "persona",
+          "name": "Persona",
+          "score": 67.5
+        },
+        {
+          "rank": 23,
+          "slug": "signzy",
+          "name": "Signzy",
+          "score": 67.5
+        },
+        {
+          "rank": 26,
+          "slug": "signicat",
+          "name": "Signicat",
+          "score": 66.3
+        },
+        {
+          "rank": 26,
+          "slug": "thirdfort",
+          "name": "Thirdfort",
+          "score": 66.3
+        },
+        {
+          "rank": 28,
+          "slug": "dun-bradstreet",
+          "name": "Dun & Bradstreet",
+          "score": 61.9
+        },
+        {
+          "rank": 28,
+          "slug": "know-your-customer",
+          "name": "Know Your Customer",
+          "score": 61.9
+        },
+        {
+          "rank": 28,
+          "slug": "kyckr",
+          "name": "Kyckr",
+          "score": 61.9
+        },
+        {
+          "rank": 31,
+          "slug": "certaby",
+          "name": "Certaby",
+          "score": 60.9
+        },
+        {
+          "rank": 32,
+          "slug": "kycaid",
+          "name": "KYCAID",
+          "score": 54.4
+        },
+        {
+          "rank": 33,
+          "slug": "footprint",
+          "name": "Footprint",
+          "score": 53.1
+        },
+        {
+          "rank": 34,
+          "slug": "ballerine",
+          "name": "Ballerine",
+          "score": 50
+        },
+        {
+          "rank": 35,
+          "slug": "ondorse",
+          "name": "Ondorse",
+          "score": 45.6
+        },
+        {
+          "rank": 36,
+          "slug": "companystack",
+          "name": "CompanyStack",
+          "score": 41.3
+        },
+        {
+          "rank": 36,
+          "slug": "enigma",
+          "name": "Enigma",
+          "score": 41.3
+        },
+        {
+          "rank": 38,
+          "slug": "endole",
+          "name": "Endole",
+          "score": 36.9
+        },
+        {
+          "rank": 39,
+          "slug": "amiqus",
+          "name": "Amiqus",
+          "score": 33.8
+        },
+        {
+          "rank": 39,
+          "slug": "kyc-hub",
+          "name": "KYC Hub",
+          "score": 33.8
+        },
+        {
+          "rank": 41,
+          "slug": "sonar",
+          "name": "SONAR",
+          "score": 26.3
+        },
+        {
+          "rank": 42,
+          "slug": "baselayer",
+          "name": "Baselayer",
+          "score": 25
+        },
+        {
+          "rank": 43,
+          "slug": "cobalt-intelligence",
+          "name": "Cobalt Intelligence",
+          "score": 13.1
+        }
+      ]
+    }
+  ]
+}

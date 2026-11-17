@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "KYB Compass: KYB providers compared"
+abstract: "KYB providers compared: what 43 providers charge and include, November 2026 edition. Facts from each provider's own pages, with four rankings by need under published weights. Updated monthly."
+authors:
+  - name: "SONAR"
+    website: "https://getsonar.report"
+version: "2026-11"
+date-released: "2026-11-17"
+license: CC-BY-4.0
+url: "https://getsonar.report/kyb-compass"
+repository: "https://github.com/Ivanolegvak/kyb-compass"
+keywords:
+  - KYB
+  - know your business
+  - company verification
+  - KYB providers
+  - AML
+  - pricing
+  - dataset
