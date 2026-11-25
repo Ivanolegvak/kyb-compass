@@ -1,7 +1,7 @@
 {
   "dataset": "KYB Compass",
   "edition": "2026-11",
-  "updated": "2026-11-17",
+  "updated": "2026-11-25",
   "license": "CC-BY-4.0",
   "check_parts": [
     {
@@ -76,14 +76,14 @@
       "ranking": [
         {
           "rank": 1,
-          "slug": "certaby",
-          "name": "Certaby",
-          "score": 96.3
-        },
-        {
-          "rank": 1,
           "slug": "didit",
           "name": "Didit",
+          "score": 97.5
+        },
+        {
+          "rank": 2,
+          "slug": "certaby",
+          "name": "Certaby",
           "score": 96.3
         },
         {
@@ -365,7 +365,7 @@
           "rank": 1,
           "slug": "didit",
           "name": "Didit",
-          "score": 93.4
+          "score": 95.6
         },
         {
           "rank": 2,
@@ -989,21 +989,21 @@
         },
         {
           "rank": 11,
+          "slug": "didit",
+          "name": "Didit",
+          "score": 88.1
+        },
+        {
+          "rank": 12,
           "slug": "au10tix",
           "name": "AU10TIX",
           "score": 86.9
         },
         {
-          "rank": 12,
+          "rank": 13,
           "slug": "veriff",
           "name": "Veriff",
           "score": 85.9
-        },
-        {
-          "rank": 13,
-          "slug": "didit",
-          "name": "Didit",
-          "score": 78.4
         },
         {
           "rank": 14,

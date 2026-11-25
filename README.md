@@ -1,8 +1,8 @@
 # KYB Compass: KYB providers compared
 
-**KYB providers compared: what 43 providers charge and include, November 2026 edition.**
+**KYB software pricing: what 43 providers charge and include, November 2026 edition.**
 
-What 43 KYB and business verification providers charge and include, taken only from each provider’s own pricing, product and documentation pages, with four rankings by need under published weights. Updated monthly. Current edition: **November 2026** (`2026-11`, published 2026-11-17).
+What 43 KYB and business verification providers charge and include, taken only from each provider’s own pricing, product and documentation pages, with four rankings by need under published weights. Updated monthly. Current edition: **November 2026** (`2026-11`, published 2026-11-17, corrected 2026-11-25).
 
 - Article: https://getsonar.report/kyb-compass/findings
 - Interactive comparison, filters and the cost-versus-depth map: https://getsonar.report/kyb-compass
@@ -50,8 +50,8 @@ A small business or agency checking suppliers, partners or customers now and the
 
 | Rank | Provider | Score |
 | --- | --- | --- |
-| 1 | Certaby | 96.3 |
-| 1 | Didit | 96.3 |
+| 1 | Didit | 97.5 |
+| 2 | Certaby | 96.3 |
 | 3 | SONAR (publisher) | 95 |
 | 4 | KYCAID | 92.5 |
 | 5 | Know Your Customer | 82.5 |
@@ -62,7 +62,7 @@ A business that deals with companies registered in the UK and the EU.
 
 | Rank | Provider | Score |
 | --- | --- | --- |
-| 1 | Didit | 93.4 |
+| 1 | Didit | 95.6 |
 | 2 | SONAR (publisher) | 91.3 |
 | 3 | Know Your Customer | 86.9 |
 | 4 | Global Database | 85.6 |
@@ -95,7 +95,7 @@ A regulated firm or platform onboarding many business customers worldwide.
 
 ## Disclosure
 
-SONAR publishes KYB Compass and is one of the 43 providers, scored by exactly the same rules. In “A few checks a month” it ranks 3rd of 43, behind Certaby and Didit; in “UK and EU counterparties” it ranks 2nd of 43, behind Didit; in “API for developers and AI agents” it shares first place with 4 others (Baselayer, CompanyStack, Didit and Enigma); and in “Onboarding at volume” it ranks 41st of 43. What SONAR does not do: no identity verification of people, no ongoing monitoring. If something about a provider is wrong, email contact@getsonar.report with the page that shows it and we will correct it.
+SONAR publishes KYB Compass and is one of the 43 providers, scored by exactly the same rules. In “A few checks a month” it ranks 3rd of 43, behind Didit and Certaby; in “UK and EU counterparties” it ranks 2nd of 43, behind Didit; in “API for developers and AI agents” it shares first place with 4 others (Baselayer, CompanyStack, Didit and Enigma); and in “Onboarding at volume” it ranks 41st of 43. What SONAR does not do: no identity verification of people, no ongoing monitoring. If something about a provider is wrong, email ivan@getsonar.report with the page that shows it and we will correct it.
 
 ## Files
 
@@ -165,7 +165,7 @@ Link the edition you used: `editions/2026-11.json`. When you quote a number, quo
 
 ## Corrections
 
-Facts come only from the providers’ own pages, opened on the date in `checked_on`. “Not stated” (`unknown`) means the pages we opened do not say; it is not a claim that the feature is missing. Providers can send corrections, with the page that shows the fact, to contact@getsonar.report.
+Facts come only from the providers’ own pages, opened on the date in `checked_on`. “Not stated” (`unknown`) means the pages we opened do not say; it is not a claim that the feature is missing. Providers can send corrections, with the page that shows the fact, to ivan@getsonar.report.
 
 ## Licence
 
